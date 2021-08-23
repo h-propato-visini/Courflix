@@ -1,0 +1,44 @@
+.buttonStyle {
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    cursor: pointer;
+
+    .imgIcon {
+        width: 10px;
+        background-color: none;
+        margin-right: 10px;
+    }
+}
+
+.buttonStyleMob {
+    display: none;
+}
+
+
+
+
+@media (max-width : 750px) {
+    .buttonStyle {
+        display: none;
+    }
+
+    .buttonStyleMob {
+        display: inline-block;
+        width: 250px;
+        height: 40px;
+        color: white;
+        font-weight: bold;
+        margin-right: 25px;
+        cursor: pointer;
+    }
+}
+

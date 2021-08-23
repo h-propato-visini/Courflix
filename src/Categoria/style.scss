@@ -1,0 +1,72 @@
+.categorieContainer {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 50px 0px 0px 30px;
+    
+    span {
+        color: rgb(160, 158, 158);
+        margin-right: 10px;
+    }
+}
+
+.carouseles {
+    width: 1500px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px 0 0 25px;
+
+    .titleCarousel {
+        color: rgb(160, 158, 158);
+    }
+
+    .mobileCarousel {
+        display: none;
+    }
+
+    .desktopCarousel {
+        margin-bottom: -50px;
+    }
+}
+
+.carouselMobile {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .categorieContainer {
+        margin-top: 90px;
+        margin-left: 0;
+        padding-left: 25px;
+        background-color: rgb(24, 24, 24);
+    }
+
+    .ocultarSpan {
+        display: none;
+    }
+    .carouseles {
+        display: none;
+    }
+
+    .carouselMobile {
+        display: flex;
+        justify-content: space-between;
+        width: 749px;
+        height: 100%;
+        background-color: rgb(24, 24, 24);
+        padding: 25px;
+        margin-top: -30px;
+
+        .mobileCarousel {
+            display:block;
+            width: 680px;
+            margin: 0 25px;
+        }
+
+        .desktopCarousel {
+            display: none;
+        }
+    }
+}

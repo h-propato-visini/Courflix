@@ -1,0 +1,59 @@
+.menuContainer {
+    display: none;
+}
+
+@media (max-width : 750px) {
+    .menuContainer {
+        display: block;
+        width: 500px;
+        height: max-content;
+        background-color: black;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        z-index: 2;
+        font-size: 25px;
+        color:rgb(194, 193, 193);
+
+        .profileContainer {
+            display: flex;
+            margin-left: 25px;
+
+            .profileImg {
+                width: 85px;
+            }
+        
+            .profileName {
+                margin-left: 25px;
+            }
+        
+            h6 {
+                font-size: 25px;
+                margin-top: 0px;
+            }
+        
+            .profile {
+                font-size: 20px;
+            }
+        }
+    }
+  
+    .menuList {
+        margin-left: -15px;
+    }
+
+    h5 {
+        margin-left: 25px;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: -10px;
+    }
+
+    li {
+        list-style: none;
+        font-size: 25px;
+        line-height: 1.7;
+    }
+}
