@@ -59,27 +59,34 @@ body {
   .carouselesContainer {
       display: flex;
       flex-direction: column;
-      width: 1555px;
-
+      width: 1580px;
+      overflow: hidden;
+      
       .serieContainer {
-        width: 100%;
+        width: 1520px;
         height: 250px;
         display: flex;
         flex-direction: column;
-        margin-left: 25px;
+        justify-content: flex-start;
         overflow: hidden;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 20px;
       }
   }
 
   @media (max-width: 750px) {
+
+
     .backImg {
-      top: 55px;
-      width: 510px;
-      left: 240px;      
+      top: 65px;
+      width: 500px;
+      left: 250px;      
     }
   
     .banner {
-      width: 100%;
+      width: 730px;
+      height: 200px;
       margin-top: 120px;
 
       .origNetflix {
@@ -115,17 +122,19 @@ body {
     }
   
     .carouselesContainer {
-            width: 749px;
-            height: 800px;
+            width: 755px;
+            height: max-content;
             overflow: hidden;
             background-color: rgb(24, 24, 24);
             margin-top: 20px;
 
+
         .serieContainer {
-            width: 1700px;
+            width: 745px;
+            height: max-content;
             overflow: hidden;
-            margin: 40px 0 -50px 0;
-            padding-left: 25px;
+            margin-top: 20px;
+            margin-left: -20px;
           }
     }
   }

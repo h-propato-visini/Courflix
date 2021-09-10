@@ -21,19 +21,22 @@
 
             .profileImg {
                 width: 85px;
+                font-size: 100px;
             }
         
             .profileName {
+                height: 100px;
                 margin-left: 25px;
-            }
-        
-            h6 {
-                font-size: 25px;
-                margin-top: 0px;
-            }
-        
-            .profile {
-                font-size: 20px;
+
+                h6 {
+                    font-size: 25px;
+                    margin-top: 0px;
+                    margin-bottom: 0;
+                }
+            
+                .profile {
+                    font-size: 20px;
+                }
             }
         }
     }

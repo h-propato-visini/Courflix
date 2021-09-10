@@ -1,27 +1,67 @@
 .itemContainer {
     width: 250px;
-    height: 300px;
     cursor: pointer;
+    position: relative;
+
+    .numberChapter {
+        position: absolute;
+        z-index: 3;
+        bottom: 10px;
+        left: 5px;
+        color: white;
+        font-size: 30px;
+        
+    }
     
     .itemStyle {
         width: 250px;
         height: 150px;
-        margin-right: 5px;
     }
 
     .itemBigger{
-        width: 280px;
-        height: 200px;
+        width: 260px;
+        height: 160px;
+        position: relative;
+    }
+}
+
+.infoItem {
+    color: white;
+    width: 250px;
+    height: max-content;
+
+    .spanContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+    }
+
+    .descriptionContainer {
+        width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -15px;
     }
 }
 
 @media (max-width : 750px) {
     .itemContainer {
-        width: 300px;
-        height: 160px;
+        width: 350px;
+        height: 200px;
         display: flex;
         justify-content: flex-start;
         margin: 10px 0px;
+
+        .itemStyle {
+            width: 350px;
+            height: 200px;
+        }
+    
+        .itemBigger{
+            width: 360px;
+            height: 210px;
+            position: relative;
+        }
     }
 
 }

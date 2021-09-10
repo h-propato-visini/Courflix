@@ -1,0 +1,13 @@
+.slick-prev:before {
+    content: "<";
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .slick-next:before {
+    content: ">";
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }

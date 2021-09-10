@@ -1,5 +1,7 @@
 import React from 'react'
 import './style.scss'
+import { faUser } from "@fortawesome/free-regular-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
 
@@ -8,7 +10,7 @@ class Menu extends React.Component {
         return (
             <div className='menuContainer'>
                 <div className='profileContainer'>
-                    <img className='profileImg'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSqMuPKSwpF7lEKFZQELtKgzdCq3GScdvwQQ&usqp=CAU'/>
+                    <FontAwesomeIcon icon={faUser} className='profileImg'/>
                     <div className='profileName'>
                         <h6>CourseIt</h6>
                         <p className='profile'>Cambiar perfiles</p>

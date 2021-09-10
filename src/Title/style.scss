@@ -1,19 +1,17 @@
 .titleContainer {
-    color: white;
     font-size: 25px;
-    margin-bottom: -20px;
+    width: max-content;
 
     h5 {
         width: max-content;
         font-weight: normal;
         cursor: pointer;
+        color: white;
     }
 }
 
 @media (max-width : 750px) {
     .titleContainer {
-        margin-bottom: 30px;
-        margin-top: 35px;
-        margin-left: -20px;
+        margin-bottom: 10px;
     }
 }
